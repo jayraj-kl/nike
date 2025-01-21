@@ -34,11 +34,11 @@ export const facebook: FC<ComponentProps<"svg">> = () => (
 </svg>
 );
 
-export const hamburger: FC<ComponentProps<"svg">> = () => (
+export const Hamburger: FC<ComponentProps<"svg">> = (props) => (
     <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
- preserveAspectRatio="xMidYMid meet">
-
+ preserveAspectRatio="xMidYMid meet" {...props}>
+    
 <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
 fill="#000000" stroke="none">
 <path d="M95 4146 c-67 -29 -105 -106 -91 -181 9 -47 59 -102 104 -115 26 -8
