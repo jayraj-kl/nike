@@ -1,4 +1,4 @@
-import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/incon";
+import { Facebook, Instagram, ShieldTick, Support, TruckFast, Twitter } from "../assets/incon";
 import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images/index";
 
 export const navLinks = [
@@ -54,17 +54,17 @@ export const products = [
 
 export const services = [
     {
-        imgURL: truckFast,
+        imgURL: TruckFast,
         label: "Free shipping",
         subtext: "Enjoy seamless shopping with our complimentary shipping service."
     },
     {
-        imgURL: shieldTick,
+        imgURL: ShieldTick,
         label: "Secure Payment",
         subtext: "Experience worry-free transactions with our secure payment options."
     },
     {
-        imgURL: support,
+        imgURL: Support,
         label: "Love to help you",
         subtext: "Our dedicated team is here to assist you every step of the way."
     },
@@ -118,7 +118,7 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+    { src: Facebook, alt: "facebook logo" },
+    { src: Twitter, alt: "twitter logo" },
+    { src: Instagram, alt: "instagram logo" },
 ];
